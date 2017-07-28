@@ -2,8 +2,11 @@
 
 # Installation
 
-- Download the [Moodle Nextcloud Repository plugin from the release page](https://github.com/daita/moodle-repository_nextcloud/releases)                                                                         
-- Download the [Moodle Tool OAuth2 from pssl16](https://github.com/pssl16/moodle-tool_oauth2owncloud/releases)
+- Download the [Moodle Nextcloud Repository plugin from the release page](https://github.com/daita/moodle-repository_nextcloud/releases/download/1.0.0/moodle-repository_nextcloud-1.0.0.zip) 
+and unzip its content in `your_moodle_directory/repository/`                                                                        
+- Download the [Moodle Tool OAuth2 from pssl16](https://github.com/daita/moodle-repository_nextcloud/releases/download/1.0.0/moodle-tool_oauth2owncloud-0.1.0.zip) 
+and unzip its content in `your_moodle_directory/admin/tool/`. You can also download the source directly from 
+[https://github.com/pssl16/moodle-tool_oauth2owncloud/releases](https://github.com/pssl16/moodle-tool_oauth2owncloud/releases)
 
 
 
@@ -20,7 +23,7 @@ In the **Add client** form, choose a name and set up the redirection URI to your
 
 After clicking the **Add** button, you should see the Client Identifier and a Secret key in front of your freshly created entry. Those 2 strings will be used in _moodle_ during the setup of this plugin.
 
-
+https://github.com/pssl16/moodle-tool_oauth2owncloud/releases
 
 
 ***
